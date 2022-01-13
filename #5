@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int variavel2, variavel1, controle, vetor;
+    
+     variavel2=0;
+    variavel1=5000;
+    vetor=malloc(xsizeof(int));
+    for (controle=0;controle<variavel1;controle++){
+        vetor[controle]=variavel2;
+        variavel2++;
+        printf("%d \n", vetor[controle]);
+    }
+    free (vetor);
+    return 0;
+}
